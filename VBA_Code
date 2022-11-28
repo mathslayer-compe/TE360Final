@@ -1,1 +1,8 @@
-
+Sub Deletion()
+'
+' Deletion Macro
+' Only considers the first 200 restaurants in the list to avoid any issues with data processing
+'
+    Application.Goto Reference:="R201C1:R999020C1"
+    Selection.EntireRow.Delete
+End Sub
